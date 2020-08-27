@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -23,6 +24,7 @@
     position: sticky;
     top: 0;
     cursor: pointer;
+    font-size: 20px;
 }
 
 .nav-list{
@@ -33,7 +35,7 @@
 
 .nav-list li{
     list-style: none;
-    padding: 26px 30px;
+    padding: 26px 26px;
 }
 
 .nav-list li a{
@@ -84,7 +86,12 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    word-spacing: 1px;
+    
+}
+
+.firstHalf .text-big{
+    padding: 12px 0px;
+    font-size: 48px;
 }
 
 .secondHalf{
@@ -109,11 +116,49 @@
 
 .btn{
     padding: 8px 2px;
-    margin: 7px 0px;
+    margin: 7px 3px;
     border: 2px solid white;
     border-radius: 8px;
     width: 15%;
     background: none;
     color: white;
     cursor: pointer;
+}
+
+.btn-sm{
+    padding: 6px 10px;
+    vertical-align: center;
+}
+
+.section{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.section-left{
+    flex-direction: row-reverse;
+}
+
+.paras{
+    padding: 0px 65px;
+}
+
+.sectionSubTag{
+    font-family: -webkit-body;
+    font-size: 18px;
+}
+
+.imgFluid{
+    width: 300px;
+    border: 2px solid black;
+    margin-top: 19px;
+}
+
+.sectionTag{
+    padding: 12px 0px;
 }
