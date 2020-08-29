@@ -28,7 +28,7 @@
 }
 
 .nav-list{
-    width: 50%;
+    width: 70%;
     display: flex;
     align-items: center;
 }
@@ -41,6 +41,7 @@
 .nav-list li a{
     text-decoration: none;
     color: white;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .nav-list li a:hover{
@@ -48,7 +49,7 @@
 }
 
 .rightNav{
-    width: 50%;
+    width: 30%;
     text-align: right;
     padding: 0px 23px;
 }
@@ -119,19 +120,19 @@
     margin: 7px 3px;
     border: 2px solid white;
     border-radius: 8px;
-    width: 15%;
     background: none;
     color: white;
     cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .btn-sm{
     padding: 6px 10px;
     vertical-align: center;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .section{
-    height: 500px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -142,6 +143,8 @@
 
 .section-left{
     flex-direction: row-reverse;
+    margin-top: 6%;
+    margin-bottom: 6%;
 }
 
 .paras{
@@ -157,8 +160,188 @@
     width: 300px;
     border: 2px solid black;
     margin-top: 19px;
+    border-radius: 18px;
 }
 
 .sectionTag{
     padding: 12px 0px;
+}
+
+.contact{
+    background-color: #f6f5f4;
+    height: 600px;
+}
+
+.text-contact{
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 35px
+}
+
+.form{
+    max-width: 62%;
+    margin: 25px auto;
+}
+
+.form-input{
+    margin: 14px 0px;
+    width: 100%;
+    padding: 5px 3px;
+    font-size: 19px;
+    border: 2px solid grey;
+    border-radius: 6px;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+.btn-dark{
+    color: black;
+    border: 2px solid grey;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    width: 20%;
+}
+
+.signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 160px;
+}
+
+.mailing-list{
+    font-size: 25px;
+    background-color: none;
+    padding: 10px 10px;
+    border: 3px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.mailing-list img{
+    width: 27px;
+    margin: auto;
+}
+
+.lastOuter{
+    height: 150px;
+    background-color: #f6f5f4;
+    color: #f6f5f4;
+}
+
+.lastInner{
+    display: flex;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 26px 26px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.tableContent{
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.lastList{
+    list-style: none;
+}
+
+.footer_text{
+    padding: 3px 0px;
+}
+
+.lastList a{
+    text-decoration: none;
+    color: #f6f5f4;
+    font-size: 14px;
+    margin: auto;
+}
+
+.colheading{
+    font-size: 18px;
+}
+
+#join_list{
+    width: 300px;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 8px;
+    margin-left: 40px;
+    padding: 5px;
+}
+
+.footer{
+    text-align: center;
+    padding: 15px 0px;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    color: rgb(83, 79, 79);
+}
+
+.footer_elements a{
+    text-decoration: none;
+    color: rgb(83, 79, 79);
+    padding: 3px 14px;
+}
+
+.footer_elements a:hover{
+    color: white;
+}
+
+.btn-width{
+    max-width: 60px;
+    margin-left: 20px;
+}
+
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+}
+
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 3px;
+}
+
+@media only screen and (max-width: 1140px){
+    .nav-list{
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: column;
+        transition: all 0.7s ease-out;
+        height: 478px;
+    }
+    .rightNav{
+        text-align: center;
+    }
+    #search{
+        width: 100%;
+    }
+    .burger{
+        display: block;
+    }
+    .h-nav-resp{
+        height: 72px;
+    }
+    .v-class-resp{
+        opacity: 0;
+    }
+    .box-main{
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+    .section{
+        flex-direction: column-reverse;
+    }
 }

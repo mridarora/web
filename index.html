@@ -7,24 +7,31 @@
     <title>Name</title>
   </head>
   <body>
-    <nav class="navbar background">
-      <ul class="nav-list">
+    <nav class="navbar background h-nav-resp">
+      <ul class="nav-list v-class-resp">
         <div class="logo"><img src="./img/logo.png" alt="logo" /></div>
         <li><a href="#home"> Home </a></li>
         <li><a href="#about"> About </a></li>
         <li><a href="#services"> Services </a></li>
         <li><a href="#contact"> Contact </a></li>
       </ul>
-      <div class="rightNav">
+      <div class="rightNav v-class-resp">
         <input type="text" name="search" id="search" />
         <button class="btn btn-sm">Search</button>
+      </div>
+      <div class="burger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
       </div>
     </nav>
 
     <section class="background firstSection">
       <div class="box-main">
         <div class="firstHalf">
-          <p class="text-big" id="firstHeading">The future of education is here.</p>
+          <p class="text-big" id="firstHeading">
+            The future of education is here.
+          </p>
           <p class="text-small">
             The future of education is here. Lorem ipsum, dolor sit amet
             consectetur adipisicing elit. Reprehenderit illum dicta eius ullam
@@ -50,19 +57,15 @@
           numquam cumque quidem rerum libero amet velit ratione, expedita quia
           eligendi modi ipsam eaque! Aliquid non rerum quaerat beatae repellat
           magni unde placeat nulla asperiores autem, accusantium deserunt
-          officia mollitia? Necessitatibus perspiciatis dolor neque, temporibus
-          eos illum, minima hic aspernatur quam suscipit tenetur architecto
-          dignissimos modi! Odio molestiae suscipit totam sint aut magnam
-          necessitatibus vitae quas eum, doloribus soluta facere officia unde
-          distinctio minus exercitationem, illum blanditiis alias sed repellat
-          nisi, vel nulla? Perferendis quasi doloremque asperiores voluptates
-          neque maiores tempore corporis quae cum ipsam doloribus, corrupti
-          ipsum explicabo dolorum accusantium laudantium magni temporibus ad
-          tempora deserunt fugit quisquam dolor quibusdam?
+          officia mollitia?
         </p>
       </div>
       <div class="thumbnail">
-        <img src="https://source.unsplash.com/1600x900/?physics,apple" alt="logo" class="imgFluid">
+        <img
+          src="https://source.unsplash.com/1600x900/?nature"
+          alt="logo"
+          class="imgFluid"
+        />
       </div>
     </section>
 
@@ -75,19 +78,15 @@
           numquam cumque quidem rerum libero amet velit ratione, expedita quia
           eligendi modi ipsam eaque! Aliquid non rerum quaerat beatae repellat
           magni unde placeat nulla asperiores autem, accusantium deserunt
-          officia mollitia? Necessitatibus perspiciatis dolor neque, temporibus
-          eos illum, minima hic aspernatur quam suscipit tenetur architecto
-          dignissimos modi! Odio molestiae suscipit totam sint aut magnam
-          necessitatibus vitae quas eum, doloribus soluta facere officia unde
-          distinctio minus exercitationem, illum blanditiis alias sed repellat
-          nisi, vel nulla? Perferendis quasi doloremque asperiores voluptates
-          neque maiores tempore corporis quae cum ipsam doloribus, corrupti
-          ipsum explicabo dolorum accusantium laudantium magni temporibus ad
-          tempora deserunt fugit quisquam dolor quibusdam?
+          officia mollitia?
         </p>
       </div>
       <div class="thumbnail">
-        <img src="https://source.unsplash.com/1600x900/?mathematics,apple" alt="logo" class="imgFluid">
+        <img
+          src="https://source.unsplash.com/1600x900/?mountains"
+          alt="logo"
+          class="imgFluid"
+        />
       </div>
     </section>
 
@@ -100,20 +99,105 @@
           numquam cumque quidem rerum libero amet velit ratione, expedita quia
           eligendi modi ipsam eaque! Aliquid non rerum quaerat beatae repellat
           magni unde placeat nulla asperiores autem, accusantium deserunt
-          officia mollitia? Necessitatibus perspiciatis dolor neque, temporibus
-          eos illum, minima hic aspernatur quam suscipit tenetur architecto
-          dignissimos modi! Odio molestiae suscipit totam sint aut magnam
-          necessitatibus vitae quas eum, doloribus soluta facere officia unde
-          distinctio minus exercitationem, illum blanditiis alias sed repellat
-          nisi, vel nulla? Perferendis quasi doloremque asperiores voluptates
-          neque maiores tempore corporis quae cum ipsam doloribus, corrupti
-          ipsum explicabo dolorum accusantium laudantium magni temporibus ad
-          tempora deserunt fugit quisquam dolor quibusdam?
+          officia mollitia?
         </p>
       </div>
       <div class="thumbnail">
-        <img src="https://source.unsplash.com/1600x900/?coding,java" alt="logo" class="imgFluid">
+        <img
+          src="https://source.unsplash.com/1600x900/?space,astrophysics"
+          alt="logo"
+          class="imgFluid"
+        />
       </div>
     </section>
+
+    <section class="contact">
+      <h1 class="text-contact">Contact Us</h1>
+      <div class="form">
+        <input
+          class="form-input"
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Enter your name"
+        />
+        <input
+          class="form-input"
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter your e-mail"
+        />
+        <textarea
+          class="form-input"
+          name="text"
+          id="text"
+          cols="30"
+          rows="10"
+          placeholder="Elaborate your concern"
+        ></textarea>
+        <button class="btn btn-dark">Submit</button>
+      </div>
+    </section>
+    <div class="background signup">
+      <button class="mailing-list">
+        <img src="./img/email.png" alt="email" /> Join Our Mailing List
+      </button>
+      <input
+        type="email"
+        name="join_list"
+        id="join_list"
+        placeholder="Enter your email address"
+      />
+      <button class="btn btn-sm btn-width" type="submit">Go</button>
+    </div>
+
+    <section class="background lastOuter">
+      <div class="lastInner">
+        <div class="tableContent">
+          <div class="colheading">Contents</div>
+          <ul class="lastList">
+            <li class="footer_text"><a href="#physics">Physics</a></li>
+            <li class="footer_text"><a href="#physics">Mathematics</a></li>
+            <li class="footer_text"><a href="#physics">Astronomy</a></li>
+          </ul>
+        </div>
+        <div class="tableContent">
+          <div class="colheading">Latest Post</div>
+          <ul class="lastList">
+            <li class="footer_text"><a href="#physics">Something 1</a></li>
+            <li class="footer_text"><a href="#physics">Something 2</a></li>
+            <li class="footer_text"><a href="#physics">Something 3</a></li>
+          </ul>
+        </div>
+        <div class="tableContent">
+          <div class="colheading">Get to know us</div>
+          <ul class="lastList">
+            <li class="footer_text"><a href="#physics">Contact Us</a></li>
+            <li class="footer_text"><a href="#physics">About Us</a></li>
+            <li class="footer_text"><a href="#physics">Queries</a></li>
+          </ul>
+        </div>
+        <div class="tableContent">
+          <div class="colheading">You decide</div>
+          <ul class="lastList">
+            <li class="footer_text"><a href="#physics">First</a></li>
+            <li class="footer_text"><a href="#physics">Second</a></li>
+            <li class="footer_text"><a href="#physics">Third</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <footer class="background">
+      <ul class="footer">
+          <li class="copyright">&copy; Name, Inc. 2020 -</li>
+          <li class="footer_elements"><a href="Terms & Conditions">Terms & Conditions</a></li>
+          <li class="footer_elements"><a href="#physics">Privacy Center</a></li>
+          <li class="footer_elements"><a href="#physics">Security</a></li>
+      </ul>
+    </footer>
+
+    <script src="./js/resp.js"></script>
   </body>
 </html>
