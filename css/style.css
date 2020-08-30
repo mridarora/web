@@ -232,7 +232,6 @@
 
 .hide{
     margin: auto;
-    display: none;
 }
 
 .mailing-list img{
@@ -398,5 +397,11 @@
     .footer_elements{
         margin: auto;
         flex-direction: column;
+    }
+    .secondHalf img{
+        margin-top: 50%;
+    }
+    .background{
+        height: 125vh;
     }
 }
