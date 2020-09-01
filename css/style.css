@@ -4,6 +4,9 @@
     padding: 0;
 }
 
+
+/* Nav bar starts */
+
 .logo {
     width: 20%;
     display: flex;
@@ -73,6 +76,11 @@
     background-size: cover;
     background-blend-mode: darken;
 }
+
+
+/* Nav bar ends */
+
+/* First section starts */
 
 .firstSection{
     height: 100vh;
@@ -144,6 +152,10 @@
     font-family: 'Ubuntu', sans-serif;
 }
 
+/* First section ends */
+
+/* Section starts */
+
 .section{
     display: flex;
     align-items: center;
@@ -180,6 +192,10 @@
     padding: 12px 0px;
 }
 
+/* Section ends */
+
+/* Contact starts */
+
 .contact{
     background-color: #f6f5f4;
     height: 600px;
@@ -215,6 +231,8 @@
     font-size: 15px;
     width: 10%;
 }
+
+/* Contact Ends */
 
 .signup{
     display: flex;
